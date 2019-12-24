@@ -13,7 +13,6 @@
 
 
 ##1. 資料讀入
-Sys.setlocale(category = "LC_ALL", locale = "zh_TW.UTF-8")
 library(dplyr)
 A02=read.csv("A_all.csv")
 head(A02)
